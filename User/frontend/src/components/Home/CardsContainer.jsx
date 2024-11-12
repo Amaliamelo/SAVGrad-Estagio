@@ -18,7 +18,7 @@ const cardData = [
         link: '/trancamento'
     },
     {
-        title: 'Matrícula em menos de 12 créditos-aula / em mais de 40 créditos-aula',
+        title: 'Requerimento de Matrícula',
         description: `De acordo com o artigo 73 do Regimento Geral da USP, a carga horária mínima não poderá ser inferior a 12 créditos-aula semanais e, de acordo com o artigo 2.º da Resolução CoG nº 3903, não poderá ser superior a 40 horas.
                       Exceção: Alunos que são prováveis formandos e aqueles que não conseguem se inscrever em mais disciplinas por falta de requisitos.`,
         link: '/matricula'
@@ -26,9 +26,7 @@ const cardData = [
     {
         title: 'Trancamento total do curso',
         description: `A solicitação de trancamento total do curso pode ser feita em qualquer momento do semestre desde que o aluno já tenha obtido, pelo menos, 24 créditos em seu currículo (equivalências não são consideradas).
-                      É possível solicitar o trancamento total por até 4 semestres, com a possibilidade de prorrogação por mais 2 semestres.
-                      O período em que o aluno estiver legalmente afastado não será computado nos cálculos relativos ao cancelamento de matrícula.
-                      Para retornar à atividade no curso, o aluno deve entrar em contato com o Serviço de Graduação via e-mail e solicitar o destrancamento do curso.`,
+                      É possível solicitar o trancamento total por até 4 semestres, com a possibilidade de prorrogação por mais 2 semestres.`,
         link: '/trancamentoTotal'
     }
 ];

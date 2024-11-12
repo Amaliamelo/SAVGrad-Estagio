@@ -165,7 +165,7 @@ const Formulario = ({ cursos }) => {
           errorMessage="Você não digitou seu total de créditos"
         />
         <SelectInput
-          label="Justificativa para a exclusão"
+          label="Justificativa para a trancamento"
           name="just_exclusao"
           value={formData.just_exclusao}
           onChange={(e) => handleChange(e,setFormData,formData)}
@@ -191,7 +191,7 @@ const Formulario = ({ cursos }) => {
           />
         )}
         <SelectInputDisciplinas
-          label="Selecione a disciplina que deseja excluir"
+          label="Selecione a disciplina que deseja trancar"
           name="select_displinas"
           value={formData.select_displinas}
           onChange={(e) => handleChange(e,setFormData,formData)}
